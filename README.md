@@ -133,3 +133,34 @@ POST /simulate
 {
   "result": "future self simulation output"
 }
+```
+
+### Autonomous planning endpoint
+
+`future-self-emulator` can also act as the ranking engine for a proactive assistant.
+
+```http
+POST /next-action
+Content-Type: application/json
+
+{
+  "profile": "Shehan: founder, engineer, builder",
+  "context": {
+    "current_time": "2026-04-23T22:00:00",
+    "candidate_tasks": [
+      {
+        "id": "calendar-1",
+        "title": "Draft meeting brief",
+        "source": "calendar",
+        "urgency": 0.9,
+        "impact": 0.95,
+        "effort": 0.4,
+        "risk": 0.2
+      }
+    ]
+  }
+}
+```
+
+The response returns a recommended task, confidence score, and persona-specific
+rankings so another system, like `MaximusX`, can stage the work and wait for approval.
