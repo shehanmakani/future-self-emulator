@@ -1,8 +1,9 @@
 # Future Self Emulator
 
 > Talk to multiple versions of your future self across different life paths to make better long-term decisions.
-
+![Future Self Emulator Demo](./1d1aeca231e99ab21a3deba1e0bbc40b822edf84c6f4801c30717b111be19abe.png)
 ---
+
 
 ## 🧠 What is this?
 
