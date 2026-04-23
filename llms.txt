@@ -1,0 +1,25 @@
+# Future Self Emulator
+> Decision Intelligence System for Identity Trajectory Simulation
+
+The Future Self Emulator is an agentic framework designed to simulate multiple versions of a user's future identity based on diverging decision paths. It moves beyond predictive modeling to provide interactive, first-person narrative simulations of long-term consequences.
+
+## Core Philosophies
+- **Identity Trajectories:** Simulates three primary paths: Disciplined Self (optimized), Drift Self (passive), and High-Risk Self (aggressive).
+- **Decision Intelligence:** Focuses on regret accumulation, volatility vs. stability, and growth potential.
+- **Narrative Simulation:** Uses LLM cores to generate "lived experience" feedback from future perspectives.
+
+## Technical Architecture
+- **Backend:** FastAPI (Python) serving as the simulation engine and trajectory coordinator.
+- **Frontend:** React + TailwindCSS providing a clean, decision-focused workspace.
+- **Integration Layer:** API-ready for tool/function calling (POST /simulate) to be utilized by higher-level executive agents (e.g., MaximusX).
+- **Storage:** PostgreSQL/SQLite for user profile persistence and decision history.
+
+## Role in the "Clone" Ecosystem
+- **The Strategic Compass:** Acts as a simulation sandbox before MaximusX executes high-stakes tasks. 
+- **Risk Assessment:** Analyzes "Software-to-Steel" pipeline decisions through a behavioral science lens.
+- **Persona Alignment:** Ensures that autonomous actions taken by the 24/7 agent align with the "Disciplined Future Self" trajectory.
+
+## Repository Structure
+- `/backend/app`: FastAPI logic, trajectory prompt templates, and core simulation engine.
+- `/frontend`: React application for interactive multi-timeline exploration.
+- `README.md`: System overview and logic breakdown.
