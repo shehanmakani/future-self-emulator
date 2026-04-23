@@ -131,3 +131,5 @@ POST /simulate
 {
   "result": "future self simulation output"
 }
+
+If you want to run this simulation locally and privately, check out my other project, MaximusX. https://github.com/shehanmakani/MaximusX
